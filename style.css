@@ -316,7 +316,7 @@ footer h2 {
     padding: 2rem;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     width: 45rem;
-    height: 60rem;
+    height: 55rem;
     margin-bottom: 100px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -463,7 +463,7 @@ footer h2 {
 
     .pdf iframe {
         height: 70vh;
-        width: 100%;
+        width: 50rem;
     }
 
     .Home {
@@ -552,7 +552,7 @@ footer h2 {
         margin-left: 1.4rem;
         gap: 0.1rem;
         width: 90%;
-        height: 7rem;
+        height: 8rem;
         padding: 10px;
 
     }
