@@ -339,7 +339,7 @@ section {
     border-radius: 8px;
     border: 3px solid rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    width: 80rem;
+    width: 70rem;
     height: 23rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
