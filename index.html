@@ -22,6 +22,8 @@
             <a href="#Education">Education</a>
             <a href="#project">Projects</a>
             <a href="resume.html">Resume</a>
+            <a href="#About">About</a>
+           
 
         </nav>
     </header>
@@ -172,6 +174,39 @@
             </div>
         </div>
     </div>
+    <div id="About" class="skills hidden">
+        <h1> About me</h1>
+        <h3>Achievements & contact </h3>
+    </div>
+
+    <div class="cards-container4 hidden"> <!-- outer card-->
+        <div class="cards-container5"> <!-- inner card-->
+            <h4 id="ach">My Achievements</h4>
+            <div class="card4">
+                <div class="card-body">
+                  <h5 class="card-title">IT essentials certification</h5>
+                  <p class="card-text">Obtained certification in IT essentials through Cisco Networking Academy Program</p>                  
+                </div>
+            </div>
+            <div class="card4">
+                <div class="card-body">
+                  <h5 class="card-title">Dean's List honor</h5>
+                  <p class="card-text">Received Dean's list honor award in spring 2023-24 semester</p>
+                  
+                </div>
+            </div>
+            <div class="card4">
+                <div class="card-body">
+                  <h5 class="card-title">CodeForces</h5>
+                  <p class="card-text">Solved 113 problems in Codeforces</p>
+                  
+                </div>
+            </div>
+        </div>
+
+        <div class="cards-container6">
+        </div>
+    </div>
 
 
 
@@ -184,9 +219,8 @@
 
         </div>
 
-        <div id="social-icons">
-            <a href="https://www.facebook.com/JohnAricsson1/" target="_blank"><i
-                    class="fa-brands fa-facebook-f"></i></a>
+        <div id="social">
+            <a href="https://www.facebook.com/JohnAricsson1/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         </div>
 
     </footer>
@@ -201,7 +235,6 @@
                 }
             });
         });
-
         const hiddenElements = document.querySelectorAll('.hidden');
         hiddenElements.forEach((el) => observer.observe(el));
 
