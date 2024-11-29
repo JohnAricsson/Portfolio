@@ -39,11 +39,11 @@
             <h1><span>John Aricsson Majumder</span></h1>
             <h3 class="typing-text"> Software Engineer </h3>
             <br>
-            <p> I am passionate about pursuing a career as a software engineer with a strong focus on programming and
-                software development. I thrive on tackling complex problems, leveraging analytical thinking and creative
-                solutions to overcome challenges. My goal is to build efficient, scalable, and impactful software that
-                contributes positively to users and the community. I am dedicated to continuous learning, staying
-                updated with industry trends, and improving my skills to excel in the ever-evolving field of technology.
+            <p> I am passionate about building a career as a software engineer with a focus on programming and software
+                development. I enjoy solving complex problems by applying analytical thinking and creative solutions. My
+                goal is to create efficient, scalable, and impactful software that benefits users and the community. I
+                am committed to continuous learning, staying updated with industry trends, and enhancing my skills to
+                excel in the ever-changing field of technology.
             </p>
         </div>
     </section>
@@ -183,7 +183,7 @@
     </div>
 
     <div class="cards-container4 hidden"> <!-- outer card-->
-        <div class="cards-container5"> <!-- inner card-->
+        <div class="cards-container5 hidden"> <!-- inner card-->
             <h4>Achievements</h4>
             <div class="card4">
                 <div class="card-body">
@@ -212,11 +212,20 @@
                 </div>
             </div>
         </div>
+        <div class="cards-container6 ">
+            <h4>Introduction</h4>
+            <div class="card5">
+                <video controls>
+                    <source src="images/intro.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+        </div>
     </div>
 
-    <div class="cards-container6">
-    </div>
-    </div>
+
+
 
 
 
@@ -256,6 +265,10 @@
         });
         const hiddenElements = document.querySelectorAll('.hidden');
         hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+
 
     </script>
 
