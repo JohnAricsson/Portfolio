@@ -617,7 +617,7 @@ section {
 
     nav a {
         font-size: 1.5rem;
-        margin: 0.5rem;
+        margin: 0.3rem;
 
     }
 
@@ -682,14 +682,15 @@ section {
 
     .card {
         height: fit-content;
+        margin-bottom: -15rem;
     }
 
     .card h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .card p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .card1 h2 {
@@ -697,18 +698,22 @@ section {
     }
 
     .card1 p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+        margin: 0;
     }
 
     .card1 {
         width: 90%;
-        height: 26rem;
+        height: 23.5rem;
+        margin-bottom: -15rem;
     }
 
     .card1 .cardimg {
 
         width: 100%;
         height: 12rem;
+        border-radius: 1;
         padding: 0;
         margin: 0;
     }
@@ -718,7 +723,7 @@ section {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
-        margin-bottom: 50rem;
+        margin-bottom: 30rem;
     }
 
     .card2 {
@@ -770,6 +775,12 @@ section {
 
     }
 
+    .cards-container4 h4 {
+        font-size: 2rem;
+    }
+
+
+
     .cards-container5 {
         display: flex;
         flex-direction: column;
@@ -785,11 +796,24 @@ section {
     .card4 {
         width: 90%;
         margin-right: 3rem;
-        height: 13rem;
+        height: 10rem;
     }
 
     .card4 h5 {
-        font-size: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .card4 p {
+        font-size: 1rem;
+    }
+
+    .card4 span {
+        font-size: 1rem;
+    }
+
+    .card4 img {
+        width: 12px;
+        height: auto;
     }
 
     .cards-container6 {
@@ -799,13 +823,14 @@ section {
         border-radius: 8px;
         justify-content: center;
         gap: 3rem;
-        margin-top: 10rem;
+        margin-top: 0rem;
 
     }
 
     .cards-container6 h4 {
-        margin-left: 1rem;
-        font-size: 2.5rem;
+
+        margin-left: 2.5rem;
+        font-size: 2rem;
     }
 
     .card5 {
