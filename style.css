@@ -268,7 +268,7 @@ section {
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     width: 40rem;
-    height: 50vh;
+    height: 50rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 100px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -679,7 +679,7 @@ section {
     .card1 {
         border-radius: 1rem;
         width: 90%;
-        height: 22vh;
+        height: 22rem;
         margin-bottom: -15rem;
     }
 
@@ -828,7 +828,7 @@ section {
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
-        width: 100vw;
+        width: 97vw;
         z-index: 100;
     }
 
