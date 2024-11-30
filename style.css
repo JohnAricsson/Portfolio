@@ -758,7 +758,6 @@ section {
         justify-content: center;
         width: 100vw;
         padding: 1rem;
-        margin: 0.5rem;
         gap: 1rem;
         border-radius: 1rem;
         margin-top: 30rem;
@@ -793,25 +792,24 @@ section {
         color: black;
         border-radius: 8px;
         justify-content: center;
-        gap: 3rem;
         margin-top: 0rem;
 
     }
 
     .cards-container6 h4 {
 
-        margin-left: 2.5rem;
+        margin: 0;
+        text-align: center;
         font-size: 2rem;
     }
 
     .card5 {
         display: flex;
-        width: 350px;
-        height: 430px;
+        width: 330px;
+        height: 410px;
         border-radius: 10px;
         overflow: hidden;
         object-fit: cover;
-        margin-left: -10rem;
     }
 }
 
